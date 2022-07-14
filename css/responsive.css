@@ -1,0 +1,46 @@
+@media screen and (max-width:630px) {
+
+    main {
+        flex-direction: column;
+    }
+
+    .container {
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .pr_image {
+        width: auto;
+        height: auto;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pr_image img {
+        /* margin: 0 auto 0 auto; */
+        width: 100%;
+        /* text-align: center; */
+
+
+    }
+
+    .pr_detail {
+        width: auto;
+        height: auto;
+    }
+
+    .pr_category,
+    .pr_description {
+        margin: 10px 0;
+    }
+
+    .price {
+        margin: 20px 0 10px 0;
+
+    }
+
+
+}
