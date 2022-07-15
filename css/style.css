@@ -96,7 +96,7 @@ body {
     font-family: var(--ff-primary-100);
     color: var(--clr-neutral-500);
     font-size: 14px;
-    padding: 3rem;
+    padding: 2rem;
 
 }
 
@@ -205,11 +205,8 @@ footer {
 .attribution a {
     color: var(--clr-primary-400);
 }
-<<<<<<< Updated upstream
-=======
 
 .attribution a:hover {
     color: var(--clr-primary-900);
     cursor: pointer;
 }
->>>>>>> Stashed changes
