@@ -201,11 +201,9 @@ footer {
     align-items: center;
     text-align: center;
 }
-
 .attribution a {
     color: var(--clr-primary-400);
 }
-
 .attribution a:hover {
     color: var(--clr-primary-900);
     cursor: pointer;
