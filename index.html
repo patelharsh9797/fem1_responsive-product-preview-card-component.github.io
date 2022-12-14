@@ -9,9 +9,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+    <script src="./js/main.js" defer></script>
 </head>
 
-<body>
+<body onload="stopLoader()">
+
+    <!-- loader -->
+    <div id="loaderContainer">
+
+        <div class="loader" id="loader"></div>
+    </div>
+
+    <!-- TODO main -->
     <main>
         <div class="container">
 
